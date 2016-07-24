@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plusieurs Devices Lab</string>
+    <string name="text1">Vous voulez savoir ce qui se passera dans trois mois?</string>
+    <string name="text2">Vous serez un développeur Android génial! Il suffit de continuer à travailler dur!</string>
+    <string name="button">Cliquez Sur-Moi :)</string>
+</resources>
