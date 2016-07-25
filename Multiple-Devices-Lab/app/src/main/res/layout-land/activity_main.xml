@@ -19,24 +19,32 @@
         android:layout_centerHorizontal="true"
         android:paddingBottom="12dp"/>
 
-    <ImageView
-        android:id="@+id/icon"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textview"
-        android:layout_marginLeft="200dp"
-        android:src="@drawable/ic_live_help_black_40dp"
-        android:paddingRight="15dp"
-        android:paddingTop="5dp"/>
+        android:layout_below="@id/textview">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button"
-        android:layout_toRightOf="@+id/icon"
-        android:layout_below="@+id/textview"
-        android:layout_alignTop="@id/button"
-        />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/ic_live_help_black_40dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_below="@+id/textview"
+            android:layout_alignTop="@id/button"
+            />
+
+    </LinearLayout>
 
 </RelativeLayout>
